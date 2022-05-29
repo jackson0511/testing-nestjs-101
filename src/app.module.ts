@@ -9,9 +9,10 @@ import { PatientsModule } from './patients/patients.module';
 import { RacersModule } from './racers/racers.module';
 import { SupportersModule } from './supporters/supporters.module';
 import { SellersModule } from './sellers/sellers.module';
+import { CodersModule } from './coders/coders.module';
 
 @Module({
-  imports: [UsersModule, ClientsModule, CustomersModule, DoctorsModule, PatientsModule, RacersModule, SupportersModule, SellersModule],
+  imports: [UsersModule, ClientsModule, CustomersModule, DoctorsModule, PatientsModule, RacersModule, SupportersModule, SellersModule, CodersModule],
   controllers: [AppController],
   providers: [AppService],
 })
