@@ -6,9 +6,10 @@ import { ClientsModule } from './clients/clients.module';
 import { CustomersModule } from './customers/customers.module';
 import { DoctorsModule } from './doctors/doctors.module';
 import { PatientsModule } from './patients/patients.module';
+import { RacersModule } from './racers/racers.module';
 
 @Module({
-  imports: [UsersModule, ClientsModule, CustomersModule, DoctorsModule, PatientsModule],
+  imports: [UsersModule, ClientsModule, CustomersModule, DoctorsModule, PatientsModule, RacersModule],
   controllers: [AppController],
   providers: [AppService],
 })
